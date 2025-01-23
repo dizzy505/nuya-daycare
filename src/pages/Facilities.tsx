@@ -38,14 +38,16 @@ export const Facilities = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {facilities.map((facility, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src={facility.image}
-              alt={facility.title}
-              className="w-full h-48 object-cover"
-            />
+            <div className="relative h-80">
+              <img
+                src={facility.image}
+                alt={facility.title}
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">{facility.title}</h3>
-              <p className="text-gray-600">{facility.description}</p>
+              <h3 className="text-2xl font-semibold mb-3">{facility.title}</h3>
+              <p className="text-gray-600 text-lg">{facility.description}</p>
             </div>
           </div>
         ))}
