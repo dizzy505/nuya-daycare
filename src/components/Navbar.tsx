@@ -12,7 +12,7 @@ export const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-                src="/images/logo.png"
+                src="/images/logo.jpg"
                 alt="Nuya Kid's Care Logo"
                 className="h-12 w-auto"
               />
