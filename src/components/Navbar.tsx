@@ -14,7 +14,7 @@ export const Navbar = () => {
               <img 
                 src="/images/logo.jpg"
                 alt="Nuya Kid's Care Logo"
-                className="h-12 w-auto"
+                className="h-12 w-12 rounded-full object-cover"
               />
               <span className="ml-2 text-xl font-bold text-white">Nuya Kid's Care</span>
             </Link>
