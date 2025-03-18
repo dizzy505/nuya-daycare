@@ -19,13 +19,13 @@ export const Programs = () => {
       icon: Heart,
       title: 'Pendidikan Agama',
       description: 'Mengajarkan nilai-nilai moral dan prinsip-prinsip agama melalui kegiatan yang sesuai dengan usia.',
-      color: 'bg-theme-card-yellow'
+      color: 'bg-theme-card-green'
     },
     {
       icon: Palette,
       title: 'Seni & Kerajinan',
       description: 'Mengeksplorasi kreativitas dan ekspresi diri melalui berbagai media seni.',
-      color: 'bg-theme-card-green'
+      color: 'bg-theme-card-yellow'
     },
     {
       icon: Brain,
